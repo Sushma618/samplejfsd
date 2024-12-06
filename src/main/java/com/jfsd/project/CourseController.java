@@ -28,7 +28,7 @@ public class CourseController {
 		return 1;
 	}
 
-	// Show form to add a new course
+
     @GetMapping("/addCourse")
     public String showAddCourseForm(Model model) {
         model.addAttribute("course", new Course());
